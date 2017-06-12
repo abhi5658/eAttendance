@@ -15,6 +15,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "702738755134-8qps39mhktj43a3hkkma3hbvgdcvdrov.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.aseem.eattendance",
+            "certificate_hash": "0021aa9e5a91f3b390f03dba618924016fbfcd51"
+          }
+        },
+        {
           "client_id": "702738755134-i1hmjsb21bln7obnf2dkalaednrtoa5d.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
