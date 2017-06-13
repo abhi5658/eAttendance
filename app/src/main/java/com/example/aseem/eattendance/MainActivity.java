@@ -119,7 +119,12 @@ public class MainActivity extends AppCompatActivity {
 
     private void onSignedInInialize(String username){
         mUsername = username;
-        mWelcomeText.setText("Welcome "+mUsername);
+        if (mUsername!=null) {
+            mWelcomeText.setText("Welcome " + mUsername);
+        }
+        else{
+            mWelcomeText.setText("Welcome new user!!");
+        }
         //attachDatabaseReadListener();
     }
 
