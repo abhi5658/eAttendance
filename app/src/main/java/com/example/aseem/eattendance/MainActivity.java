@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
+import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -133,5 +134,10 @@ public class MainActivity extends AppCompatActivity {
         mWelcomeText.setText("Welcome "+mUsername);
 
 //        mMessageAdapter.clear();
+    }
+
+    public void addSub(View view) {
+        Intent intent = new Intent(this,AddSubject.class);
+        startActivity(intent);
     }
 }
