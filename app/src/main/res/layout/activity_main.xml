@@ -13,6 +13,5 @@
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true"
         android:id="@+id/welcomeText"
-        android:textSize="36sp"
-        android:onClick="addSub"/>
+        android:textSize="36sp" />
 </RelativeLayout>
